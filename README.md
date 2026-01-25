@@ -13,3 +13,7 @@
 #### (Upload files and create PR to contribute directly)
 
 </div>
+
+## Pending Actions
+* Add Algorithms
+* Add Output
