@@ -11,15 +11,15 @@ float rd=sqrt(d);
 float root1=(-b+rd)/(2*a), root2=(-b-rd)/(2*a);
 printf("2 Roots of the equations are: %f and %f\n",root1, root2);
 }
-else if (round(d)==0){
+else if (d<0){
+float rd=sqrt(-d);
+float real=-b/(2*a), img=rd/(2*a);
+printf("2 Imaginary Roots of the equations are: %f + %f i and %f - %f i\n",real,img,real,img);
+}
+else {
 float rd=sqrt(d);
 float root=(-b+rd)/(2*a);
 printf("Equal Roots of the equations is: %f\n",root);
-}
-else {
-float rd=sqrt(-d);
-float real=-b/(2*a), img=rd/(2*a);
-printf("2 Imaginary Roots of the equations are: %f + %f i and %f - %f i",real,img,real,img);
 }
 return 0;
 }
