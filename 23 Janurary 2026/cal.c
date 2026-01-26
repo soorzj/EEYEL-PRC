@@ -6,7 +6,7 @@ int x,y; //to store the operands
 scanf("%d %d",&x,&y);
 printf("Enter the operator (+,-,/,*)\n");
 char op; //to store the operator
-scanf("%c %c",&op,&op);
+scanf(" %c", &op); // Note the space before %
 switch (op){
 case '+':{
 printf("Sum of numbers is %d\n",x+y);
