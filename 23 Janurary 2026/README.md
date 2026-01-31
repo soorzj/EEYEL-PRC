@@ -1,6 +1,6 @@
 ## PROGRAMS TO BE DONE | 23 Janurary 2026
 
-* Print Hello world . (`hello_world.c`)
+* Print Hello world . [helloworld](hello_world.c)
 * Read two integers and find the sum. (`sum_2.c`)
 * Read radius and find area of a circle . (`circle3.c`)
 * Read temperature in degree Celsius and convert farenheit . (`temperature.c`)
@@ -22,5 +22,5 @@
 * Check the given number is Armstrong number or not (`armsstrong.c`)
 * Print Fibonacci series (`fibonocci.c`)
 * Print the factorial of a number (`factorial.c`)
-* Print half pyramid using star (``)
+* Print half pyramid using star (`halfpyramid.c`)
 * Print half pyramid of numbers (`numpyramid.c`)
