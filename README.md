@@ -17,9 +17,9 @@
 </div>
 
 ## [CLICK HERE TO GET THE SOURCE CODE LIST](January_2026/README.md)
-
+</div>
 ## Pending Actions
-## Add Algorithms
-## Add Output
+* Add Algorithms
+* Add Output
 
 
