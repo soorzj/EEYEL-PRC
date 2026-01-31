@@ -8,7 +8,7 @@
 
 <div align="center">
 
-### C- Programming Repository for EL Batch of '29.
+### C- Programming Repository for EL & EEE Batch of '29.
 ### Upkeeped by fellow contributors 
 ###     --SOORZJ
 ###     --T4WFIQ
