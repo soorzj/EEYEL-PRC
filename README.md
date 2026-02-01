@@ -14,10 +14,6 @@
 ###     --T4WFIQ
 #### (Upload files and create PR to contribute directly)
 
-</div>
-
-## [CLICK HERE TO GET THE SOURCE CODE LIST](January_2026/README.md)
-</div>
 ## Pending Actions
 * Add Algorithms
 * Add Output
