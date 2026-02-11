@@ -1,18 +1,24 @@
 #include <stdio.h>
 #include <math.h>
-int main() {
-int a,temp=0,c=0,d=0;
-printf("enter the number to check:\n");
-scanf("%d",&a);
-c=a;
-while(c>0) {
-    d=c%10;
-    temp+=d*d*d;
-    c=c/10;
-}
-if (temp == a)
-        printf("%d is an Armstrong number\n", a);
-    else
-        printf("%d is not an Armstrong number\n", a);
-
+int main () {
+    int a, a_backup, last, dig=0; //variables to store number, to backup number, to store last digit, to count digits
+    float ans = 0.0; //to store the answer of operation
+    printf("Enter the number: \n");
+    scanf("%d", &a);
+    a_backup = a; //store for future use
+    while (a != 0) {
+        a = a / 10;
+        dig++; 
+        }
+    a = a_backup; //restore the number
+    while (a != 0) {
+        last = a % 10;
+        ans = ans + pow(last, dig);
+        a = a / 10; 
+        }
+    if ((int)ans == a_backup) 
+        printf("Number is Armstrong \n");
+    else 
+        printf("Number is not Armstrong. \n");
+    return 0;
 }
