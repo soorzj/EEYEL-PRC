@@ -10,7 +10,7 @@ int main () {
         a = a / 10;
         dig++; 
         }
-    a = a_backup; //restore the number
+    a = a_backup; //restore the numbers
     while (a != 0) {
         last = a % 10;
         ans = ans + pow(last, dig);
