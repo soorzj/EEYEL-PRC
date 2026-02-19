@@ -1,6 +1,6 @@
 ### Questions | 13 February 2026
 
-* Read n integers store them in array find its sum and average. (`array_sum_avg.c` / `sumavg.c`)
+* Read n integers store them in array find its sum and average. (`array_sum_avg.c`)
 * Sort an array in Ascending order using bubble sort. (`bubblesort.c`)
 * Linear search in array. (`arraysearch.c`)
 * Insert a number in an array. (`array_insert.c`)
