@@ -1,4 +1,4 @@
-# `MATRIX MENU`
+# MATRIX MENU
 ```
 Enter the number of rows and columns:
 3
