@@ -3,7 +3,7 @@
 int main(){
 char a[50];
 printf("Enter the String 1:\n");
-scanf("%s",a);
+fgets(a,50,stdin);
 int l=strlen(a),vowel=0,cons=0,space=0;
 for(int i=0;i<l;i++){
 ;
